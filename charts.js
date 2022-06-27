@@ -153,7 +153,7 @@ function buildCharts(sample) {
     // 3. Create a variable that holds the washing frequency.
     var washFreq = +metadata_SelId[0].wfreq;
     
-    // 4. Create the trace for the gauge chart.
+    // 4. Deliverable 3.
     var gaugeData = [
       {
         domain: { x: [0, 1], y: [0, 1] },
@@ -179,7 +179,7 @@ function buildCharts(sample) {
       }
     ];
     
-    // 5. Create the layout for the gauge chart.
+    // 5. Layout for deliverable 3
     var gaugeLayout = { 
       autosize: true,
       annotations: [{
@@ -194,7 +194,7 @@ function buildCharts(sample) {
       }]
     };
 
-    // 6. Use Plotly to plot the gauge data and layout.
+    // 6. Plot the charts.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout, {responsive: true});
   });
 }
