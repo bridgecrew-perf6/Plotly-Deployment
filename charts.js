@@ -105,7 +105,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: -0.25,
         yanchor: 'center',
-        text: 'This bar chart shows the 10 most commonly-found bacterial species for each participant.',
+        text: 'This chart shows the 10 most commonly bacterial species for each participant.',
         showarrow: false
       }]
     };
